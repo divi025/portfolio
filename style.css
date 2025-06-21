@@ -1,0 +1,37 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #1e90ff, #00ffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, #1f2937, #374151);
+  padding: 1.2rem;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.skill-item:hover {
+  background: linear-gradient(to right, #2d3748, #4b5563);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+  transform: translateY(-5px);
+}
+
+.icon-small {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 0.5rem;
+}
+
+.invert {
+  filter: invert(1);
+}

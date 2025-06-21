@@ -1,0 +1,11 @@
+services:
+  - type: static
+    name: divyansh-portfolio
+    env: static
+    buildCommand: ""
+    staticPublishPath: .
+    branch: main
+    routes:
+      - type: rewrite
+        source: /
+        destination: /divi.html
